@@ -1,0 +1,7 @@
+template-go
+template-go/cmd/template-go
+template-go/pkg/cmd
+template-go/pkg/conf
+template-go/pkg/constant
+template-go/pkg/peripheral
+template-go/pkg/version

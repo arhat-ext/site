@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>goget</title>
+
+  <!-- go import -->
+  <meta name="go-import" content="{{ site.data.goget.custom_prefix }}/{{ page.package }} {{ site.data.goget.vcs }} {{ site.data.goget.repo_org }}/{{ page.repo_name }}">
+  <meta name="go-source" content="{{ site.data.goget.custom_prefix }}/{{ page.package }} {{ site.data.goget.repo_org }}/{{ page.repo_name }} {{ site.data.goget.repo_org }}/{{ page.repo_name }}/tree/master{/dir} {{ site.data.goget.repo_org }}/{{ page.repo_name }}/tree/master{/dir}/{file}#L{line}">
+  <meta http-equiv="refresh" content="0; url=https://pkg.go.dev/{{ site.data.goget.custom_prefix }}{{ page.permalink }}">
+</head>
+</html>
