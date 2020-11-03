@@ -1,0 +1,6 @@
+data_dir: data
+layouts_dir: layouts
+
+url: https://ext.arhat.dev
+plugins:
+  - jekyll-sitemap
